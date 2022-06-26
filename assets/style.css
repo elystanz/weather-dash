@@ -1,0 +1,18 @@
+:root {
+    --primary: #FBAF00;
+    --secondary: #FFD639;
+    --tertiary: #FFA3AF;
+    --quaternary: #007CBE;
+    --quinary: #00AF54;
+}
+
+.city {
+    width: 15vw;
+    color: 004266;
+    background-color: var(--secondary);
+
+}
+
+.city:hover {
+    background-color: var(--tertiary);
+}
