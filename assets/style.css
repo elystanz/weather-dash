@@ -1,18 +1,36 @@
 :root {
-    --primary: #FBAF00;
-    --secondary: #FFD639;
-    --tertiary: #FFA3AF;
-    --quaternary: #007CBE;
-    --quinary: #00AF54;
+    --primary: #586BA4;
+    --secondary: #324376;
+    --tertiary: #F5DD90;
+    --quaternary: #F68E5F;
+    --quinary: #F76C5E;
 }
 
-.city {
+header h1 {
+    background-color: var(--secondary);
+    color: var(--quaternary);
+}
+
+.city,
+.search-input{
     width: 15vw;
     color: 004266;
-    background-color: var(--secondary);
+    background-color: var(--quaternary);
 
+}
+
+.search-input {
+    background-color: transparent;
 }
 
 .city:hover {
     background-color: var(--tertiary);
+}
+
+.five-day {
+    background-color: var(--primary);
+}
+
+.five-day-card {
+    border: none;
 }
