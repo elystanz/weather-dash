@@ -4,11 +4,25 @@
     --tertiary: #F5DD90;
     --quaternary: #F68E5F;
     --quinary: #F76C5E;
+    --senary: #D7DCEA;
+}
+
+body {
+    background-color: var(--senary);
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+
 }
 
 header h1 {
     background-color: var(--secondary);
-    color: var(--quaternary);
+    color: var(--senary);
+}
+
+.gray-label {
+    color: #5E5E5E;
 }
 
 .city,
@@ -17,6 +31,11 @@ header h1 {
     color: 004266;
     background-color: var(--quaternary);
 
+}
+
+.city-card {
+    background: transparent;
+    border: none;
 }
 
 .search-input {
@@ -32,5 +51,7 @@ header h1 {
 }
 
 .five-day-card {
+    background: transparent;
+    color: var(--tertiary);
     border: none;
 }
